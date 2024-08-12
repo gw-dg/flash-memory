@@ -20,7 +20,7 @@
 2.  Navigate to the folder:
     ```bash
     cd flash-memory
-    ```bash
+    ```
 
 ### Frontend
 
