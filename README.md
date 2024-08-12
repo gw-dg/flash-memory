@@ -1,4 +1,8 @@
 # Flashcard Project
+## Tech Stack
+- **Frontend**: React.js
+- **Backend**: Node.js with Express.js
+- **Database**: MySQL
 
 ## Project Structure
 - **flashcard-app/**: Frontend application
@@ -6,6 +10,13 @@
 - **package.json**: Backend dependencies and scripts
 
 ## Setup Instructions
+
+### Cloning the Repository
+
+1. Clone the repository using Git:
+    ```bash
+    git clone https://github.com/gw-dg/flash-memory.git
+    ```
 
 ### Frontend
 
