@@ -17,6 +17,10 @@
     ```bash
     git clone https://github.com/gw-dg/flash-memory.git
     ```
+2.  Navigate to the folder:
+    ```bash
+    cd flash-memory
+    ```bash
 
 ### Frontend
 
