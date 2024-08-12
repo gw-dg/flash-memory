@@ -4,6 +4,10 @@
 - **Backend**: Node.js with Express.js
 - **Database**: MySQL
 
+## Setup-Video
+[Watch the video](https://github.com/gw-dg/video/blob/main/20240812_222245.mp4?raw=true)
+![image](https://github.com/user-attachments/assets/da2109a7-c4d6-451f-9231-7a00427ddbea)
+
 ## Project Structure
 - **flashcard-app/**: Frontend application
 - **server.js**: Backend server file
