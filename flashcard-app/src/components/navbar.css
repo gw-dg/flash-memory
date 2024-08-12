@@ -1,0 +1,69 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-image: linear-gradient(135deg, #feb692 0%, #ea5455 100%);
+  padding: 0 20px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.navbar-logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.create-btn {
+  border: 2px solid #feb692;
+  background-color: #feb692;
+  border-radius: 0.9em;
+  padding: 0.8em 1.2em;
+  transition: all ease-in-out 0.2s;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.create-btn span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 600;
+}
+
+.create-btn:hover {
+  background-color: #f39262;
+  transform: translateY(-2px);
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .navbar-logo {
+    margin-bottom: 10px;
+  }
+
+  .create-btn {
+    font-size: 14px;
+    padding: 0.6em 1em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar-logo {
+    font-size: 20px;
+  }
+
+  .create-btn {
+    font-size: 12px;
+    padding: 0.5em 0.8em;
+  }
+}
